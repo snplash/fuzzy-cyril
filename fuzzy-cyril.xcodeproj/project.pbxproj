@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89EBBCB61655F49700ADCB5D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89EBBCB51655F49700ADCB5D /* Cocoa.framework */; };
+		89EBBCC01655F49700ADCB5D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89EBBCBE1655F49700ADCB5D /* InfoPlist.strings */; };
+		89EBBCC21655F49700ADCB5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EBBCC11655F49700ADCB5D /* main.m */; };
+		89EBBCC61655F49700ADCB5D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 89EBBCC41655F49700ADCB5D /* Credits.rtf */; };
+		89EBBCC91655F49700ADCB5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EBBCC81655F49700ADCB5D /* AppDelegate.m */; };
+		89EBBCCC1655F49700ADCB5D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89EBBCCA1655F49700ADCB5D /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		89EBBCB11655F49700ADCB5D /* fuzzy-cyril.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fuzzy-cyril.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89EBBCB51655F49700ADCB5D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		89EBBCB81655F49700ADCB5D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		89EBBCB91655F49700ADCB5D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		89EBBCBA1655F49700ADCB5D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		89EBBCBD1655F49700ADCB5D /* fuzzy-cyril-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fuzzy-cyril-Info.plist"; sourceTree = "<group>"; };
+		89EBBCBF1655F49700ADCB5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		89EBBCC11655F49700ADCB5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		89EBBCC31655F49700ADCB5D /* fuzzy-cyril-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fuzzy-cyril-Prefix.pch"; sourceTree = "<group>"; };
+		89EBBCC51655F49700ADCB5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		89EBBCC71655F49700ADCB5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		89EBBCC81655F49700ADCB5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		89EBBCCB1655F49700ADCB5D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89EBBCAE1655F49700ADCB5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89EBBCB61655F49700ADCB5D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89EBBCA61655F49600ADCB5D = {
+			isa = PBXGroup;
+			children = (
+				89EBBCBB1655F49700ADCB5D /* fuzzy-cyril */,
+				89EBBCB41655F49700ADCB5D /* Frameworks */,
+				89EBBCB21655F49700ADCB5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89EBBCB21655F49700ADCB5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89EBBCB11655F49700ADCB5D /* fuzzy-cyril.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89EBBCB41655F49700ADCB5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89EBBCB51655F49700ADCB5D /* Cocoa.framework */,
+				89EBBCB71655F49700ADCB5D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89EBBCB71655F49700ADCB5D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89EBBCB81655F49700ADCB5D /* AppKit.framework */,
+				89EBBCB91655F49700ADCB5D /* CoreData.framework */,
+				89EBBCBA1655F49700ADCB5D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		89EBBCBB1655F49700ADCB5D /* fuzzy-cyril */ = {
+			isa = PBXGroup;
+			children = (
+				89EBBCC71655F49700ADCB5D /* AppDelegate.h */,
+				89EBBCC81655F49700ADCB5D /* AppDelegate.m */,
+				89EBBCCA1655F49700ADCB5D /* MainMenu.xib */,
+				89EBBCBC1655F49700ADCB5D /* Supporting Files */,
+			);
+			path = "fuzzy-cyril";
+			sourceTree = "<group>";
+		};
+		89EBBCBC1655F49700ADCB5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89EBBCBD1655F49700ADCB5D /* fuzzy-cyril-Info.plist */,
+				89EBBCBE1655F49700ADCB5D /* InfoPlist.strings */,
+				89EBBCC11655F49700ADCB5D /* main.m */,
+				89EBBCC31655F49700ADCB5D /* fuzzy-cyril-Prefix.pch */,
+				89EBBCC41655F49700ADCB5D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89EBBCB01655F49700ADCB5D /* fuzzy-cyril */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89EBBCCF1655F49700ADCB5D /* Build configuration list for PBXNativeTarget "fuzzy-cyril" */;
+			buildPhases = (
+				89EBBCAD1655F49700ADCB5D /* Sources */,
+				89EBBCAE1655F49700ADCB5D /* Frameworks */,
+				89EBBCAF1655F49700ADCB5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fuzzy-cyril";
+			productName = "fuzzy-cyril";
+			productReference = 89EBBCB11655F49700ADCB5D /* fuzzy-cyril.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89EBBCA81655F49600ADCB5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = wfubmc;
+			};
+			buildConfigurationList = 89EBBCAB1655F49600ADCB5D /* Build configuration list for PBXProject "fuzzy-cyril" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 89EBBCA61655F49600ADCB5D;
+			productRefGroup = 89EBBCB21655F49700ADCB5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89EBBCB01655F49700ADCB5D /* fuzzy-cyril */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89EBBCAF1655F49700ADCB5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89EBBCC01655F49700ADCB5D /* InfoPlist.strings in Resources */,
+				89EBBCC61655F49700ADCB5D /* Credits.rtf in Resources */,
+				89EBBCCC1655F49700ADCB5D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89EBBCAD1655F49700ADCB5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89EBBCC21655F49700ADCB5D /* main.m in Sources */,
+				89EBBCC91655F49700ADCB5D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		89EBBCBE1655F49700ADCB5D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89EBBCBF1655F49700ADCB5D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		89EBBCC41655F49700ADCB5D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89EBBCC51655F49700ADCB5D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		89EBBCCA1655F49700ADCB5D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89EBBCCB1655F49700ADCB5D /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89EBBCCD1655F49700ADCB5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		89EBBCCE1655F49700ADCB5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		89EBBCD01655F49700ADCB5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fuzzy-cyril/fuzzy-cyril-Prefix.pch";
+				INFOPLIST_FILE = "fuzzy-cyril/fuzzy-cyril-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		89EBBCD11655F49700ADCB5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fuzzy-cyril/fuzzy-cyril-Prefix.pch";
+				INFOPLIST_FILE = "fuzzy-cyril/fuzzy-cyril-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89EBBCAB1655F49600ADCB5D /* Build configuration list for PBXProject "fuzzy-cyril" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89EBBCCD1655F49700ADCB5D /* Debug */,
+				89EBBCCE1655F49700ADCB5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89EBBCCF1655F49700ADCB5D /* Build configuration list for PBXNativeTarget "fuzzy-cyril" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89EBBCD01655F49700ADCB5D /* Debug */,
+				89EBBCD11655F49700ADCB5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89EBBCA81655F49600ADCB5D /* Project object */;
+}
